@@ -11,7 +11,7 @@ from requests import get
 from rich.console import Console
 from rich.markdown import Markdown
 from rich.table import Table
-from selenium.common import TimeoutException
+from selenium.common.exceptions import TimeoutException
 from selenium.webdriver import ActionChains
 from selenium.webdriver.chrome.webdriver import WebDriver
 from selenium.webdriver.common.by import By
